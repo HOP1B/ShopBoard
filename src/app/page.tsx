@@ -7,18 +7,20 @@ export default function Home() {
       {/* Left Content */}
       <div className="max-w-3xl">
         <h1 className="text-4xl sm:text-6xl font-bold">
-        From Everyday Essentials to Luxury Finds – The Ultimate Shopping Experience Awaits You
+          From Everyday Essentials to Luxury Finds – The Ultimate Shopping
+          Experience Awaits You
         </h1>
-        <p className="pt-7">“The customer’s perception is your reality.” – Kate Zabriskie
-
-</p>
-        <Link href="/product"><button className="mt-6 px-8 py-3 text-lg font-semibold bg-white text-purple-700 rounded-full shadow-md hover:bg-purple-200 transition">
-          Start Shopping
-        </button></Link>
+        <p className="pt-7">
+          “The customer’s perception is your reality.” – Kate Zabriskie
+        </p>
+        <Link href="/product">
+          <button className="mt-6 px-8 py-3 text-lg font-semibold bg-white text-purple-700 rounded-full shadow-md hover:bg-purple-200 transition">
+            Start Shopping
+          </button>
+        </Link>
       </div>
 
       <FaShopware className="absolute right-0 top-1/2 transform -translate-y-1/2 text-[1300px] opacity-10 text-white blur-sm" />
-
     </section>
   );
 }
